@@ -1,6 +1,7 @@
-# Menu de Duas Colunas para Ruby on Rails
+# Menu de Duas Colunas Simples em HTML, CSS e JavaScript'
 
-Este é um componente de menu interativo de duas colunas desenvolvido especificamente para aplicações Ruby on Rails, utilizando apenas HTML, CSS e JavaScript vanilla.
+Este é um componente de menu interativo de duas colunas desenvolvido para aplicações Ruby on Rails, utilizando apenas HTML, CSS e JavaScript vanilla.
+Sem React, Node, Vue, Angular, etc.
 
 ## Características
 
