@@ -2,6 +2,10 @@
 
 Este é um componente de menu interativo de duas colunas desenvolvido para aplicações Ruby on Rails, utilizando apenas HTML, CSS e JavaScript vanilla.
 Sem React, Node, Vue, Angular, etc.
+Foi fortemente inspirado no menu do console da AWS, 
+que por ter muitas opções disponíveis precisa ser bem organizado 
+e fácil de navegar e de se localizar suas opções.
+
 
 ## Características
 
