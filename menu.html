@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Duas Colunas</title>
+    <link rel="stylesheet" href="menu.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Botão para abrir o menu -->
+    <button id="openMenuBtn" class="open-menu-btn">
+        <i class="fas fa-bars"></i>
+        Abrir Menu
+    </button>
+
+    <!-- Overlay do menu -->
+    <div id="menuOverlay" class="menu-overlay">
+        <div class="menu-container">
+            <!-- Cabeçalho do menu -->
+            <div class="menu-header">
+                <h2>Menu Principal</h2>
+                <button id="closeMenuBtn" class="close-menu-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <!-- Campo de pesquisa -->
+            <div class="menu-search">
+                <div class="search-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="menuSearchInput" class="search-input" placeholder="Pesquisar no menu...">
+                    <button id="clearSearchBtn" class="clear-search-btn" style="display: none;">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Conteúdo do menu -->
+            <div class="menu-content" id="menuContent">
+                <!-- Coluna 1: Itens de primeiro nível -->
+                <div class="menu-column menu-column-primary">
+                    <div class="menu-section-title">Categorias</div>
+                    <div id="primaryMenuItems" class="menu-items">
+                        <!-- Os itens serão inseridos dinamicamente via JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Coluna 2: Subitens -->
+                <div class="menu-column menu-column-secondary">
+                    <div class="menu-section-title" id="secondaryTitle">Selecione uma categoria</div>
+                    <div id="secondaryMenuItems" class="menu-items">
+                        <!-- Os subitens serão inseridos dinamicamente via JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resultados da pesquisa -->
+            <div class="search-results" id="searchResults">
+                <div class="search-results-header" id="searchResultsHeader">
+                    Resultados da pesquisa
+                </div>
+                <div class="search-results-list" id="searchResultsList">
+                    <!-- Os resultados serão inseridos dinamicamente via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="menu.js"></script>
+</body>
+</html>
